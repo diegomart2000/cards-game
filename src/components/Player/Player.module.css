@@ -1,0 +1,23 @@
+.player {
+  @apply flex h-full flex-1 flex-col items-center justify-between;
+}
+
+.deal {
+  @apply py-11;
+}
+
+.reset {
+  @apply pb-14;
+  @apply xl:self-end xl:pr-14;
+}
+
+.result {
+  @apply flex flex-1 flex-col items-center justify-center;
+}
+
+.lose {
+  @apply mb-16;
+}
+.lose > h3 {
+  @apply font-courier text-center text-4xl text-white;
+}

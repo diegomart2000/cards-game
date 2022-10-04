@@ -1,0 +1,42 @@
+.hand {
+  @apply relative flex flex-1 flex-wrap justify-center;
+
+  @apply h-[340px] items-center;
+  @apply xl:h-full xl:items-end;
+}
+
+.hand > div {
+  @apply relative;
+}
+
+.hand:not(.final) > div:nth-child(1) > div {
+  @apply xl:rotate-15;
+  @apply xl:mb-16;
+}
+
+.hand:not(.final) > div:nth-child(2) > div {
+  @apply xl:rotate-7;
+  @apply xl:mb-3;
+}
+
+.hand:not(.final) > div:nth-child(3) > div {
+  @apply xl:mb-0;
+}
+
+.hand:not(.final) > div:nth-child(4) > div {
+  @apply xl:-rotate-7;
+  @apply xl:mb-3;
+}
+
+.hand:not(.final) > div:nth-child(5) > div {
+  @apply xl:-rotate-15;
+  @apply xl:mb-16;
+}
+
+.hand.finall > div:first-child > div {
+  @apply xl:rotate-7;
+}
+
+.hand.finall > div:last-child > div {
+  @apply xl:-rotate-7;
+}

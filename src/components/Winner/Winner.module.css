@@ -1,0 +1,6 @@
+.winner {
+  @apply relative sm:w-2/3;
+  @apply left-1/2 bottom-12 translate-x-[-50%];
+
+  @apply xl:w-[1028px];
+}

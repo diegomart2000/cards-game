@@ -1,0 +1,11 @@
+.hud {
+  @apply flex h-full justify-center gap-4;
+
+  @apply items-center py-8;
+  @apply xl:items-end xl:py-0;
+}
+
+.hud :last-child {
+  @apply hidden;
+  @apply sm:flex;
+}

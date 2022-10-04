@@ -1,0 +1,17 @@
+.suit {
+  @apply flex w-24;
+}
+
+.suit > svg path {
+  @apply fill-current;
+}
+
+.sm {
+  @apply w-5;
+  @apply xl:w-9;
+}
+
+.lg {
+  @apply w-12;
+  @apply xl:w-24;
+}

@@ -1,0 +1,17 @@
+.board {
+  @apply min-h-screen w-screen xl:h-screen xl:py-0;
+  @apply to-black-light bg-board bg-gradient-to-b from-transparent;
+  @apply xl:grid xl:grid-rows-[20%_1fr_36%];
+}
+
+.hud-container {
+  @apply relative;
+}
+
+.cards-container {
+  @apply flex items-end justify-center;
+}
+
+.player-container {
+  @apply flex h-full flex-1 justify-center;
+}

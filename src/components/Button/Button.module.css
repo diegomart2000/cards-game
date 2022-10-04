@@ -1,0 +1,22 @@
+.button {
+  @apply rounded-md;
+  @apply font-slab;
+}
+
+.primary {
+  @apply bg-accent;
+}
+
+.secondary {
+  @apply border-3 border-accent text-accent;
+}
+
+.lg {
+  @apply px-14 py-7;
+  @apply text-6xl;
+}
+
+.md {
+  @apply px-8 py-3;
+  @apply text-2xl;
+}

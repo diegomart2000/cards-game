@@ -1,0 +1,13 @@
+.counter {
+  @apply mx-2 flex w-48 flex-col items-center px-7 py-5;
+  @apply border-accent border bg-black;
+  @apply font-courier font-bold text-white;
+}
+
+.counter > h2 {
+  @apply text-5xl;
+}
+
+.counter > p {
+  @apply text-xl;
+}
